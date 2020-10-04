@@ -13,7 +13,8 @@
 #define FIREBASE_HOST "trial1-3f97b.firebaseio.com"
 #define FIREBASE_AUTH "homEnmaGrqjT4PknF77PLGXq0gKeSzaFrcihlQGL"
 #define WIFI_SSID "iPXr Bazooka"
-#define WIFI_PW "arunacdm"
+#define WIFI_PW "arxxxxxm"
+#define PINNUMBER ""
 GSM gsmAccess;
 GSM_SMS sms;
 
@@ -77,7 +78,7 @@ void setup() {
 
 void loop() {
   
-  char remoteNum[20]="8760333344";  // telephone number to send sms
+  char remoteNum[20]="87xxxxxx44";  // telephone number to send sms
   char txtMsg[200]="high pulse rate! emergency";
   int stateButton = digitalRead(pinButton); //read the state of the button
   if(stateButton == 1) { //if is pressed
